@@ -5,3 +5,28 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+#display {
+    height: 75px;
+    width: calc(100% - 20px);
+    margin-block: 5px;
+}
+
+.calculator {
+    text-align: center;
+    width: 270px;
+    padding: 10px;
+    background-color: aqua;
+    margin: 0 auto;
+}
+  
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 5px;
+}
+  
+.btn {
+    padding: 10px;
+    font-size: 18px;
+}
